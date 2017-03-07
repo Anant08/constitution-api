@@ -19,6 +19,7 @@ class HomePageView(View):
             </body>
             </html>
         ''')
+        #return render(request, 'home.html')
         return HttpResponse(response_text)
 
 
