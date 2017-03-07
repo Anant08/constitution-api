@@ -6,4 +6,8 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hello! You're viewing the Constitution API. Its still in development, of course....")
+    #return render(request, 'index.html')
+    return render(request, 'docu/home.html')
+
+    #return HttpResponse("Hello! You're viewing the Constitution API. Its still in development, of course....")
+
